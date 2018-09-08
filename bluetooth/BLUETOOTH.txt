@@ -1,0 +1,5 @@
+// BLUETOOTH CONFIGURACION//
+
+los pines empiezan con tx 
+las intrucciones de AT  eestan pdf.AT config 
+modulo HC-06 
