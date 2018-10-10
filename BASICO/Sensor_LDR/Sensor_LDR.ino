@@ -1,5 +1,5 @@
-int LED=4; 
-int LDR=0;     
+int LED=4; //PIN DEL LED  
+int LDR=0; //PIN DEL LDR     
 
 int luz = 0;       
 int valor_sensor = 0;       

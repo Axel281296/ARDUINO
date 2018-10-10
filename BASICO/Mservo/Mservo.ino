@@ -3,8 +3,8 @@ Servo sr;
 int pos=0;
 void setup() {
   Serial.begin(9600);
-  sr.attach(4);
-  sr.write(0);
+  sr.attach(4);//PIN DONDE ESTA CONECTADO EL SERVO
+  sr.write(0);//POSICION DEL SERVO, 0-180
 }
 
 void loop() {

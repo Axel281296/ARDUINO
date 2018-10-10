@@ -1,12 +1,12 @@
-#define TP 2 
-#define EP 3
-#define LED 5
+int TP=2;// PIN 2 AL TRIG  
+int EP=3;// PIN 3 AL ECHO
+
 long du,di;
 void setup()
  {
    pinMode(TP,OUTPUT);
    pinMode(EP,INPUT);
-   pinMode(LED,OUTPUT);
+  
  }
 void loop()
  {
@@ -19,7 +19,7 @@ void loop()
  
  du= pulseIn(EP,HIGH);
  di=du/58;
- analogWrite(LED,di);
+ Serial.println(di);
  
  delay(100);
  }

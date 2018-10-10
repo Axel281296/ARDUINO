@@ -1,6 +1,6 @@
 
-int f=3;
-int IT=0;
+int f=3;//PIN DEL LED 
+int IT=0;//VARAIBALE TEMPORAL 
 void setup() {
   Serial.begin(9600);
   pinMode(f,OUTPUT);
